@@ -23,10 +23,11 @@
 }
 
 #submit-btn {
-    width: 500px;
+    width: 515px;
 }
 
 button {
     height: 70px;
     width: 250px;
+    margin: 10px 5px;
 }
