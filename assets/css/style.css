@@ -1,3 +1,32 @@
-body {
-    background-color: red;
+.quiz-area {
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.questions {
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+
+.answer-btns {
+    margin: auto;
+    text-align: center;
+}
+
+.submit {
+    margin: auto;
+    text-align: center;
+}
+
+#submit-btn {
+    width: 500px;
+}
+
+button {
+    height: 70px;
+    width: 250px;
 }
