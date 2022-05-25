@@ -14,6 +14,11 @@ startButton.addEventListener('click', startGame);
 function startGame() {
     startButton.classList.add('hide');
     quizArea.classList.remove('hide');
+    showQuestion();
+}
+
+function showQuestion() {
+    document.getElementById('questions');
 }
 
 function selectAnswer() {
@@ -25,3 +30,15 @@ function nextQuestion() {
 
 
 }
+
+let questions = [
+    {
+        question: 'Which famous brothers flew the first powered aircraft?',
+        answers: {
+        a: 'The Left Brothers', 
+        b: 'The Hemsworth Brothers', 
+        c: 'The Wright Brothers', 
+        d: 'The Jonas Brothers'}, 
+        correctAnswer: 'c',
+    }
+]
