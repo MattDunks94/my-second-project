@@ -1,60 +1,54 @@
-// Getting all buttons and quiz area elements.
+// Wait for the DOM to finish loading before running game.
+// Get button elements and add event listeners to them. 
+
+document.addEventListener('DOMContentLoaded', function() {
+    let buttons = document.getElementsByTagName('button'); 
+
+    for(let button of buttons) {
+        button.addEventListener('click', function() {
+            if(this.getAttribute("data-type") === 'submit') {
+                alert("You clicked Submit!");
+            } else {
+                let otherButton = this.getAttribute("data-type");
+                alert(`You clicked ${otherButton}`);
+            }
+        })
+    }
+})
+
 let startButton = document.getElementById('start-btn');
+    startButton.addEventListener('click', runQuiz);
+
 let quizArea = document.getElementById('quiz-area');
-let question =  document.getElementById('question');
-let answerButtons = document.getElementsByClassName('answer-btns').childNodes;
 
 
-// Adding event listener to start button to execute startGame function.
-startButton.addEventListener('click', startGame);
-
-/**
- * Adding class 'hide' to start button, so when 
- * start button is clicked it will disappear. 
- * Removing class 'hide' from quizArea element, so when 
- * start button is clicked quizArea element appears.
- */ 
-function startGame() {
+function runQuiz() {
     startButton.classList.add('hide');
     quizArea.classList.remove('hide');
-    showQuestion();
-}
-
-function showQuestion() {
-    question.innerHTML = (questions[0].question);
-}
-
-function showAnswers() {
-    
-}
-
-function selectAnswer() {
 
 
-}
+};
 
-function nextQuestion() {
+function checkAnswer() {
 
+};
 
-}
+function incrementScore() {
 
-let questions = [
-    {
-        question: 'Which famous brothers flew the first powered aircraft?',
-        answers: {
-        a: 'The Left Brothers', 
-        b: 'The Hemsworth Brothers', 
-        c: 'The Wright Brothers', 
-        d: 'The Jonas Brothers'}, 
-        correctAnswer: 'c',
-    },
-    {
-        question: 'Which famous brothers flew the first powered aircraft?',
-        answers: {
-        a: 'The Left Brothers', 
-        b: 'The Hemsworth Brothers', 
-        c: 'The Wright Brothers', 
-        d: 'The Jonas Brothers'}, 
-        correctAnswer: 'c',
-    }
-]
+};
+
+function incrementWrongAnswers() {
+
+};
+
+function displayQuestions() {
+    let question = document.getElementById('question');
+
+};
+
+function displayAnswers() {
+
+};
+
+// An array of questions(objects)
+let 
