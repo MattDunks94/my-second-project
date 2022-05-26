@@ -25,9 +25,7 @@ let quizArea = document.getElementById('quiz-area');
 function runQuiz() {
     startButton.classList.add('hide');
     quizArea.classList.remove('hide');
-
-
-};
+}
 
 function checkAnswer() {
 
@@ -51,4 +49,35 @@ function displayAnswers() {
 };
 
 // An array of questions(objects)
-let 
+let questions = [
+    {
+        q: "Which famous brothers flew the first powered aircraft?"
+    },
+    {
+        q: "What does 'DVD' stand for?"
+    },
+    {
+        q: "Which planet is closest to the sun?"
+    },
+    {
+        q: "What colour is a giraffe's tongue?"
+    },
+    {
+        q: "How many sides does a Heptagon have?"
+    },
+    {
+        q: "What year did the Titanic sink?"
+    },
+    {
+        q: "Which country presented the Statue of Liberty to America as a gift?"
+    }, 
+    {
+        q: "Which sport is the 'Haka' dance associated with?"
+    },
+    {
+        q: "Which multinational corporation developed the PlayStation?"
+    },
+    {
+        q: "What type of instrument are Fender famous for making?"
+    }
+]
