@@ -25,6 +25,8 @@ let quizArea = document.getElementById('quiz-area');
 function runQuiz() {
     startButton.classList.add('hide');
     quizArea.classList.remove('hide');
+    displayQuestions();
+
 }
 
 function checkAnswer() {
@@ -41,6 +43,7 @@ function incrementWrongAnswers() {
 
 function displayQuestions() {
     let question = document.getElementById('question');
+    question.innerHTML = (questions[1].q);
 
 };
 
@@ -80,4 +83,4 @@ let questions = [
     {
         q: "What type of instrument are Fender famous for making?"
     }
-]
+];
