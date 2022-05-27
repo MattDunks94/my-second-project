@@ -16,9 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 })
 
+// Getting the start button and adding event listener.
 let startButton = document.getElementById('start-btn');
     startButton.addEventListener('click', runQuiz);
 
+// Getting the quiz-area element.
 let quizArea = document.getElementById('quiz-area');
 
 
@@ -42,10 +44,11 @@ function incrementWrongAnswers() {
 };
 
 function displayQuestions() {
-    let question = document.getElementById('question');
-    question.innerHTML = (questions[1].q);
 
-};
+        let question = document.getElementById('question');
+        question.innerHTML = (questions[3].q);
+    };
+
 
 function displayAnswers() {
 
