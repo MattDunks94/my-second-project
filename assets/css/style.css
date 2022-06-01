@@ -15,6 +15,7 @@ p {
 .list-area {
     text-align: center;
     margin: auto;
+    padding: 5px;
     width: 50%;
 }
 
@@ -29,6 +30,9 @@ button {
 }
 
 .new-item {
-    width: 25vw;
+    margin: auto;
+    width: 24vw;
     text-align: left;
+    border-bottom: 1px solid black;
+    padding: 5px;
 }
