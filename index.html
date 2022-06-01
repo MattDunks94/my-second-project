@@ -9,15 +9,17 @@
 </head>
 
 <body>
-    <button id="startBtn">Start</button>
-    <div id="board">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-    </div>
+   <h1>Shopping List</h1>
+   <p>Welcome to the 'Shopping List App'!<br>
+    Type what items you want to add to your shopping list in the box below<br> 
+    and press the 'Add Item' button (or 'enter' key) to add your items to your shopping list.</p>
+    <p>If you want to remove an item added, just simply click on the item itself or click the cross beside the item.</p>
+   <div class="list-area">
+       <input id="box" type="text" placeholder="Type here to add item">
+       <br>
+       <button id="addItemBtn">Add Item</button>
+   </div>
+   <div id="list-container"></div>
    
 <script src="assets/js/index.js"></script>
 </body>
