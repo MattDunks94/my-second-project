@@ -24,6 +24,11 @@
         removeBtn.addEventListener('click', function removeItem() {
             document.getElementById('list-container').removeChild(newItem);
         });
+
+        let selectTime = document.createElement('input');
+        selectTime.type = 'time';
+        selectTime.className = 'select-time-box';
+        newItem.appendChild(selectTime);
     });
 
     //Added 'keypress' event to add new item.
@@ -32,4 +37,10 @@
            addButton.click();
         };
     });
+
+    //Added time input for when new item is added.
+    let selectTime = document.createElement('input');
+    newItem.appendChild(selectTime);
+
+
 

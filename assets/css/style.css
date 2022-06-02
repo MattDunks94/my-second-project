@@ -48,3 +48,11 @@ button {
 .remove-btn:hover {
     color: red;
 }
+
+.select-time-box {
+    float: right;
+    width: 70px;
+    height: 25px;
+    background: none;
+    border: none;
+}
