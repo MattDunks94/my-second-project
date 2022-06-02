@@ -11,6 +11,7 @@
         document.getElementById('list-container').appendChild(newItem);
         newItem.className = "new-item";
 
+
         /**
          * Adding remove button when user adds item.
          * add event listener to newly created button
@@ -29,6 +30,6 @@
     document.getElementById('box').addEventListener("keypress", function(event) {
         if(event.key === "Enter") {
            addButton.click();
-        }
-    })
+        };
+    });
 
