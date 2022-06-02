@@ -1,6 +1,4 @@
-//Function that holds all necessary functions for list app.
-function startList() {
-    /**
+ /**
  * Getting the 'add item' button and adding event listener.
  * Added function that creates new element (list item) 
  * when user clicks 'add item' button.
@@ -26,4 +24,11 @@ function startList() {
             document.getElementById('list-container').removeChild(newItem);
         });
     });
-};
+
+    //Added 'keypress' event to add new item.
+    document.getElementById('box').addEventListener("keypress", function(event) {
+        if(event.key === "Enter") {
+           addButton.click();
+        }
+    })
+
