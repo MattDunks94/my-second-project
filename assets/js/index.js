@@ -4,7 +4,7 @@ startBtn.addEventListener('click', startList);
 
 //Getting the welcome area and list area elements.
 let welcomeArea = document.getElementById('welcome');
-let listArea = document.getElementById('hidden');
+let listArea = document.getElementById('listContainer');
 
 
 function startList() {
