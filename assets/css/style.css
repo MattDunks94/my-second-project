@@ -1,11 +1,11 @@
 body {
     font-family: pt sans;
-    background-color: skyblue;
+    background-image: url(assets/images/desk1.webp);
 }
 
 h1 {
     text-align: center;
-    font-size: 250%;
+    font-size: 300%;
 }
 
 p {
