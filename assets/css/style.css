@@ -16,17 +16,30 @@ h1 {
     font-size: 300%;
 }
 
+h2 {
+    text-align: center;
+    font-size: 250%;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(238, 238, 238, 0.5);
+    border-radius: 5px;
+}
+
+h2:hover {
+    color: rgb(91, 141, 155);
+}
+
 p {
     text-align: center;
     width: 400px;
     margin: auto;
+    font-size: 130%;
 
 }
 
 ol {
     text-align: left;
     width: 400px;
-    margin: auto;
 }
 
 .list-area {
@@ -72,4 +85,8 @@ button {
     height: 25px;
     background: none;
     border: none;
+}
+
+.hidden {
+    display: none;
 }
