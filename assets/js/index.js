@@ -1,3 +1,18 @@
+//Getting the 'start planning' h2 element.
+let startBtn = document.getElementById('startBtn');
+startBtn.addEventListener('click', startList);
+
+//Getting the welcome area and list area elements.
+let welcomeArea = document.getElementById('welcome');
+let listArea = document.getElementById('hidden');
+
+
+function startList() {
+    startBtn.classList.add('hidden');
+    welcomeArea.classList.add('hidden');
+    listArea.classList.remove('hidden');
+};
+ 
  /**
  * Getting the 'add item' button and adding event listener.
  * Added function that creates new element (list item) 
@@ -41,6 +56,7 @@
     //Added time input for when new item is added.
     let selectTime = document.createElement('input');
     newItem.appendChild(selectTime);
+
 
 
 
