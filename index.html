@@ -9,20 +9,30 @@
 </head>
 
 <body>
-   <h1>Day Planner</h1>
-   <p>Welcome to the 'Day Planner App'!<br>
-    Here you can plan out your daily activites. Type what activites you want to add to your day planner in the box below<br> 
-    and press the 'Add Activity' button (or 'enter' key) to add your activity to your day planner.</p>
-    <p>If you want to remove an activity added, just simply click on the activity itself or click the cross beside the activity.</p>
-    <p>You can also set start times for each activity. Click the clock symbol and insert start time.</p>
-   <div class="list-area">
-       <input id="box" type="text" placeholder="Type here to add activity" maxlength="30">
-       <br>
-       <button id="addItemBtn">Add Activity</button>
-   </div>
-   <div id="list-container"></div>
-   
-<script src="assets/js/index.js"></script>
+    <div class="planner-area">
+        <h1>Day Planner</h1>
+        <p>Welcome to the 'Day Planner App'!<br>
+            Here you can plan your day ahead.<br>
+            To get started click the 'Start Planning' button.</p>
+        <br>
+        <ol>
+            <li><strong>Adding activity:</strong><br>
+                To add activity, simply type in the activity (where prompted) and click 'Add Activity' button or press
+                'enter'.</li>
+            <li><strong>Setting Time:</strong><br>
+                To set the starting time of your activity, click on the clock symbol and
+                select desired time, or type in desired time.</li>
+
+        </ol>
+        <div class="list-area">
+            <input id="box" type="text" placeholder="Type here to add activity" maxlength="30">
+            <br>
+            <button id="addItemBtn">Add Activity</button>
+        </div>
+        <div id="list-container"></div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,14 @@
 body {
     font-family: pt sans;
-    background-image: url(assets/images/desk.webp);
+    background-image: url(/assets/images/music-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.planner-area {
+    background-color: rgb(238, 238, 238, 0.5);
+    border-radius: 5px;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -10,6 +18,15 @@ h1 {
 
 p {
     text-align: center;
+    width: 400px;
+    margin: auto;
+
+}
+
+ol {
+    text-align: left;
+    width: 400px;
+    margin: auto;
 }
 
 .list-area {
