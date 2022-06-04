@@ -40,7 +40,6 @@ addButton.addEventListener("click", function addItem() {
     newItem.className = "new-item";
     document.getElementById('box').value = '';
 
-
     /**
      * Adding remove button when user adds item.
      * add event listener to newly created button
