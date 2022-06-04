@@ -6,17 +6,27 @@ startBtn.addEventListener('click', startList);
 let welcomeArea = document.getElementById('welcome');
 let listArea = document.getElementById('listContainer');
 
-
+/**
+ * Adding class 'hidden' to startBtn and welcomeArea.
+ * This sets the display to 'none' to both elements when startBtn is clicked on, 
+ * and at same time removes 'hidden' class from listArea element and reveals element.
+ * Also added 'focus()' method for when listArea elements are revealed,
+ * sets the input 'box' active, ready for the user to type in.
+ */
 function startList() {
     startBtn.classList.add('hidden');
     welcomeArea.classList.add('hidden');
     listArea.classList.remove('hidden');
+    document.getElementById('box').focus();
+
 };
  
  /**
  * Getting the 'add item' button and adding event listener.
  * Added function that creates new element (list item) 
  * when user clicks 'add item' button.
+ * Also set input 'box' value to empty string, resets after every 
+ * added activity.
  */
     let addButton = document.getElementById('addItemBtn');
     addButton.addEventListener("click", function addItem() {
@@ -25,6 +35,7 @@ function startList() {
         newItem.innerHTML = document.getElementById('box').value;
         document.getElementById('list-container').appendChild(newItem);
         newItem.className = "new-item";
+        document.getElementById('box').value = '';
 
 
         /**
@@ -56,7 +67,3 @@ function startList() {
     //Added time input for when new item is added.
     let selectTime = document.createElement('input');
     newItem.appendChild(selectTime);
-
-
-
-
