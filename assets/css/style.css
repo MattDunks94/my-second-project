@@ -35,6 +35,11 @@ h1 {
     font-size: 300%;
 }
 
+#icon {
+    font-size: 80%;
+    color: darkturquoise;
+}
+
 h2 {
     font-size: 250%;
 }
@@ -88,11 +93,11 @@ button {
 
 .new-item {
     margin: auto;
-    width: 30vw;
+    width: 35vw;
     text-align: left;
     border-bottom: 1px solid darkturquoise;
     padding: 5px;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 .remove-btn {
