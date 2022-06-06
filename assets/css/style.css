@@ -125,16 +125,81 @@ button {
 
 /* Media Queries */
 
-/* Screen size of 375px wide. */
+/* Screen size 820px wide. */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 820px) {
+
+    h1 {
+        font-size: 280%;
+    }
+
+    p {
+        font-size: 130%;
+    }
+
+    .welcome {
+        width: 95%;
+    }
+
+    .start-area {
+        margin-top: 450px;
+        width: 90%;
+        height: 200px;
+    }
+
+    body {
+        background-size: cover;
+        background-image: url(/assets/images/music-background-rotated.webp);
+        background-size: 100%;
+    }
+
+    ol {
+        font-size: 130%;
+    }
+
+    #listContainer {
+        width: 90vw;
+    }
+
+    input,
+    button {
+        width: 80%;
+        height: 40px;
+    }
+
+    button {
+        margin-bottom: 5px;
+    }
+
+    .list-area {
+        width: 100%;
+    }
+
+    .new-item {
+        width: 70vw;
+        font-size: 120%;
+    }
+
+    .remove-btn {
+        width: 20px;
+    }
+
+    .select-time-box {
+        width: 70px;
+        height: 25px;
+    }
+}
+
+/* Screen size 414px wide. */
+
+@media screen and (max-width: 414px) {
 
     h1 {
         font-size: 200%;
     }
 
     h2 {
-        font-size: 150%;
+        font-size: 170%;
     }
 
     p {
@@ -146,7 +211,7 @@ button {
     }
 
     .start-area {
-        margin-top: 240px;
+        margin-top: 330px;
         width: 90%;
         height: 200px;
     }
@@ -154,11 +219,11 @@ button {
     body {
         background-size: cover;
         background-image: url(/assets/images/music-background-rotated.webp);
-        background-size: 120%;
+        background-size: 140%;
     }
 
     ol {
-        font-size: 80%;
+        font-size: 90%;
     }
 
     #listContainer {
@@ -171,18 +236,14 @@ button {
         height: 22px;
     }
 
-    .list-area {
-        width: 100%;
-    }
-
     .new-item {
-        width:90%;
-        padding: 0 5px;
+        width: 90%;
         font-size: 100%;
     }
 
     .remove-btn {
         width: 20px;
+        margin-left: 5px;
     }
 
     .select-time-box {
@@ -190,5 +251,35 @@ button {
         height: 20px;
     }
 
-  
+
+}
+
+/* Screen size of 375px wide. */
+
+@media screen and (max-width: 375px) {
+
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .start-area {
+        margin-top: 240px;
+    }
+
+    body {
+        background-size: 120%;
+    }
+
+    ol {
+        font-size: 80%;
+    }
+}
+
+/* Screen size 360px wide */
+
+@media screen and (max-width: 360px) {
+    body {
+        background-size: 130%;
+    }
 }
