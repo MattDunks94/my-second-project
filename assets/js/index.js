@@ -51,6 +51,7 @@ addButton.addEventListener("click", function addItem() {
     removeBtn.innerHTML = 'X';
     removeBtn.addEventListener('click', function removeItem() {
         document.getElementById('list-container').removeChild(newItem);
+        document.getElementById('box').focus();
     });
 
     let selectTime = document.createElement('input');

@@ -24,6 +24,7 @@ body {
 .welcome {
     text-align: center;
     background-color: rgb(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
     color: rgb(238, 238, 238);
     width: 58vw;
     margin: 5px;
@@ -57,6 +58,7 @@ p {
     text-align: left;
     width: 80vw;
     background-color: rgb(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
     color: rgb(238, 238, 238);
     padding: 5px;
     border-radius: 5px;
@@ -81,10 +83,6 @@ input,
 button {
     width: 25vw;
     height: 25px;
-}
-
-#addItemBtn:hover {
-   
 }
 
 #box {
@@ -125,3 +123,72 @@ button {
     display: none;
 }
 
+/* Media Queries */
+
+/* Screen size of 375px wide. */
+
+@media screen and (max-width: 375px) {
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    .welcome {
+        width: 95%;
+    }
+
+    .start-area {
+        margin-top: 240px;
+        width: 90%;
+        height: 200px;
+    }
+
+    body {
+        background-size: cover;
+        background-image: url(/assets/images/music-background-rotated.webp);
+        background-size: 120%;
+    }
+
+    ol {
+        font-size: 80%;
+    }
+
+    #listContainer {
+        width: 90vw;
+    }
+
+    input,
+    button {
+        width: 80%;
+        height: 22px;
+    }
+
+    .list-area {
+        width: 100%;
+    }
+
+    .new-item {
+        width:90%;
+        padding: 0 5px;
+        font-size: 100%;
+    }
+
+    .remove-btn {
+        width: 20px;
+    }
+
+    .select-time-box {
+        width: 70px;
+        height: 20px;
+    }
+
+  
+}
