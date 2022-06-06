@@ -3,8 +3,8 @@
 body {
     font-family: kanit, sans-serif;
     background-image: url(/assets/images/music-background.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: 110%;
 }
 
 .planner-area {
@@ -93,7 +93,7 @@ button {
     margin: auto;
     width: 35vw;
     text-align: left;
-    border-bottom: 1px solid darkturquoise;
+    border-bottom: 2px solid darkturquoise;
     padding: 5px;
     font-size: 120%;
 }
@@ -125,6 +125,76 @@ button {
 
 /* Media Queries */
 
+/* Screen size 912px wide. */
+
+@media screen and (max-width: 912px) {
+
+    p {
+        font-size: 150%;
+    }
+
+    .welcome {
+        width: 95%;
+    }
+
+    .start-area {
+        margin-top: 550px;
+        width: 90%;
+        height: 200px;
+    }
+
+    body {
+        background-size: cover;
+        background-image: url(/assets/images/music-background-rotated.webp);
+        background-size: 100%;
+    }
+
+    ol {
+        font-size: 150%;
+    }
+
+    #listContainer {
+        width: 90vw;
+    }
+
+    input,
+    button {
+        width: 80%;
+        height: 40px;
+    }
+
+    #box,
+    #addItemBtn {
+        font-size: 130%;
+    }
+
+    button {
+        margin-bottom: 5px;
+    }
+
+    .list-area {
+        width: 100%;
+    }
+
+    .new-item {
+        width: 80%;
+        font-size: 180%;
+        padding: 10px;
+    }
+
+    .remove-btn {
+        width: 20px;
+        margin-left: 10px;
+        font-size: 100%;
+    }
+
+    .select-time-box {
+        width: 100px;
+        height: 40px;
+        font-size: 100%;
+    }
+}
+
 /* Screen size 820px wide. */
 
 @media screen and (max-width: 820px) {
@@ -135,10 +205,6 @@ button {
 
     p {
         font-size: 130%;
-    }
-
-    .welcome {
-        width: 95%;
     }
 
     .start-area {
@@ -157,36 +223,57 @@ button {
         font-size: 130%;
     }
 
-    #listContainer {
-        width: 90vw;
+    .new-item {
+        font-size: 160%;
+    }
+
+    .select-time-box {
+        height: 30px;
+    }
+}
+
+/* Screen size 768px wide. */
+
+@media screen and (max-width: 768px) {
+
+    .start-area {
+        margin-top: 400px;
+    }
+}
+
+/* Screen size 540px wide. */
+
+@media screen and (max-width: 768px) {
+
+    .start-area {
+        margin-top: 240px;
+    }
+
+    ol {
+        font-size: 90%;
     }
 
     input,
     button {
-        width: 80%;
-        height: 40px;
+        height: 30px;
     }
 
-    button {
-        margin-bottom: 5px;
-    }
-
-    .list-area {
-        width: 100%;
+    #box,
+    #addItemBtn {
+        font-size: 100%;
     }
 
     .new-item {
-        width: 70vw;
-        font-size: 120%;
+        font-size: 150%;
     }
 
     .remove-btn {
-        width: 20px;
+        font-size: 80%;
     }
 
     .select-time-box {
-        width: 70px;
-        height: 25px;
+        width: 80px;
+        font-size: 80%;
     }
 }
 
@@ -206,10 +293,6 @@ button {
         font-size: 100%;
     }
 
-    .welcome {
-        width: 95%;
-    }
-
     .start-area {
         margin-top: 330px;
         width: 90%;
@@ -219,7 +302,7 @@ button {
     body {
         background-size: cover;
         background-image: url(/assets/images/music-background-rotated.webp);
-        background-size: 140%;
+        background-size: 65vh;
     }
 
     ol {
@@ -236,9 +319,15 @@ button {
         height: 22px;
     }
 
+
+    #box,
+    #addItemBtn {
+        font-size: 90%;
+    }
+
     .new-item {
         width: 90%;
-        font-size: 100%;
+        font-size: 120%;
     }
 
     .remove-btn {
@@ -258,21 +347,66 @@ button {
 
 @media screen and (max-width: 375px) {
 
+    h1 {
+        width: 100%;
+        font-size: 200%;
+    }
 
-    h2 {
-        font-size: 150%;
+    p {
+        font-size: 100%;
+    }
+
+    .welcome {
+        text-align: center;
+        width: 100%;
     }
 
     .start-area {
-        margin-top: 240px;
+        margin-top: 230px;
+        width: 90%;
     }
 
     body {
-        background-size: 120%;
+        background-size: 70vh;
+        background-image: url(/assets/images/music-background-rotated.webp);
+        padding-right: 20px;
     }
 
     ol {
+        font-size: 85%;
+    }
+
+    input,
+    button {
+        width: 70%;
+        height: 20px;
+    }
+
+    #box,
+    #addItemBtn {
         font-size: 80%;
+    }
+
+    .list-area {
+        width: 90%;
+    }
+
+    .new-item {
+        width: 70%;
+        font-size: 100%;
+        padding: 5px;
+    }
+
+    .remove-btn {
+        width: 10px;
+        margin-left: 10px;
+        font-size: 90%;
+    }
+
+    .select-time-box {
+        width: 60px;
+        height: 20px;
+        font-size: 90%;
     }
 }
 
