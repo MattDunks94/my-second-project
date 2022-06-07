@@ -199,17 +199,21 @@ button {
 
 @media screen and (max-width: 1024px) {
 
+    body {
+        background-size: 110%;
+    }
+
     p {
         font-size: 150%;
     }
 
     .welcome {
         width: 95%;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     .start-area {
-        margin-top: 180px;
+        margin-top: 210px;
     }
 
     ol {
@@ -230,7 +234,7 @@ button {
     }
 
     .new-item {
-        font-size: 160%;
+        font-size: 140%;
     }
 
     .remove-btn {
@@ -240,7 +244,7 @@ button {
     .select-time-box {
         width: 90px;
         height: 35px;
-        font-size: 80%;
+        font-size: 90%;
     }
 }
 
@@ -284,11 +288,11 @@ button {
 
     .remove-btn {
         width: 20px;
-        font-size: 100%;
+        font-size: 80%;
     }
 
     .select-time-box {
-        width: 100px;
+        width: 120px;
         height: 40px;
         font-size: 100%;
     }
@@ -350,6 +354,10 @@ button {
         font-size: 120%;
     }
 
+    .welcome {
+        margin-left: 5px;
+    }
+
     .start-area {
         margin-top: 240px;
     }
@@ -397,6 +405,11 @@ button {
 
     p {
         font-size: 100%;
+    }
+
+
+    .welcome {
+        margin-left: 0;
     }
 
     .start-area {
@@ -457,6 +470,7 @@ button {
     }
 
     .welcome {
+        margin-left: 5px;
         text-align: center;
         width: 100%;
     }
