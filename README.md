@@ -65,12 +65,21 @@ Remove feature hover effect:
 <ul>
   <li>HTML
     <ul>
-      <li>No errors were returned when passing through the official <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmattdunks94.github.io%2Fmy-second-project%2F">W3C Validator</a>.</li>
+      <li>No errors were returned when passing through the official <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmattdunks94.github.io%2Fmy-second-project%2F">W3C Validator</a>.
+      <img src="/assets/images/readme-images/html-checker.png"></li>
     </ul>
   </li>
   <li>CSS
     <ul>
-      <li>No errors were returned when passing through the official <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattdunks94.github.io%2Fmy-second-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Jigsaw Validator</a>.</li>
+      <li>No errors were returned when passing through the official <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmattdunks94.github.io%2Fmy-second-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Jigsaw Validator</a>.
+      <img src="/assets/images/readme-images/css-validator.png"></li>
+    </ul>
+  </li>
+  <li>Javascript
+    <ul>
+      <li>No errors were found when passing through the official <a href="https://jshint.com/">Jshint Validator</a>.
+        <img src="">
+      </li>
     </ul>
   </li>
 </ul>
