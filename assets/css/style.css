@@ -194,6 +194,18 @@ button {
     }
 }
 
+/* Screen size 1280px wide */
+
+@media screen and (max-width: 1280px) {
+
+    .welcome {
+        margin-left: 160px;
+    }
+
+    .start-area {
+        margin-top: 250px;
+    }
+}
 
 /* Screen size 1024px wide */
 
