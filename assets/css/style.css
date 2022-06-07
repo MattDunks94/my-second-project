@@ -125,20 +125,21 @@ button {
 
 /* Media Queries */
 
-/* Screen size 1024px wide */
+/* Screen size 1600px wide */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1600px) {
 
     p {
-        font-size: 150%;
+        font-size: 200%;
     }
 
     .welcome {
-        width: 95%;
+        width: 70%;
+        margin-left: 200px;
     }
 
     .start-area {
-        margin-top: 180px;
+        margin-top: 300px;
         width: 90%;
         height: 200px;
     }
@@ -148,7 +149,7 @@ button {
     }
 
     ol {
-        font-size: 120%;
+        font-size: 140%;
     }
 
     #listContainer {
@@ -158,7 +159,7 @@ button {
     input,
     button {
         width: 50%;
-        height: 30px;
+        height: 35px;
     }
 
     #box,
@@ -176,7 +177,7 @@ button {
 
     .new-item {
         width: 70%;
-        font-size: 160%;
+        font-size: 180%;
         padding: 10px;
     }
 
@@ -187,9 +188,59 @@ button {
     }
 
     .select-time-box {
-        width: 80px;
-        height: 40px;
+        width: 110px;
+        height: 35px;
+        font-size: 100%;
+    }
+}
+
+
+/* Screen size 1024px wide */
+
+@media screen and (max-width: 1024px) {
+
+    p {
+        font-size: 150%;
+    }
+
+    .welcome {
+        width: 95%;
+        margin-left: 0;
+    }
+
+    .start-area {
+        margin-top: 180px;
+    }
+
+    ol {
+        font-size: 120%;
+    }
+
+    input,
+    button {
+        height: 30px;
+    }
+
+    button {
+        margin-bottom: 5px;
+    }
+
+    .list-area {
+        width: 100%;
+    }
+
+    .new-item {
+        font-size: 160%;
+    }
+
+    .remove-btn {
         font-size: 70%;
+    }
+
+    .select-time-box {
+        width: 90px;
+        height: 35px;
+        font-size: 80%;
     }
 }
 
@@ -257,7 +308,7 @@ button {
 
     .start-area {
         margin-top: 450px;
-        width: 90%;
+        width: 85%;
         height: 200px;
     }
 
@@ -293,6 +344,10 @@ button {
 
     h2 {
         font-size: 200%;
+    }
+
+    p {
+        font-size: 120%;
     }
 
     .start-area {
@@ -345,7 +400,7 @@ button {
     }
 
     .start-area {
-        margin-top: 330px;
+        margin-top: 260px;
         width: 90%;
         height: 200px;
     }
@@ -459,5 +514,47 @@ button {
 @media screen and (max-width: 360px) {
     body {
         background-size: 130%;
+    }
+}
+
+/* Screen size 320px wide */
+
+@media screen and (max-width: 320px) {
+
+    h1 {
+        font-size: 180%;
+    }
+
+    .start-area {
+        margin-top: 180px;
+        width: 90%;
+    }
+
+    ol {
+        font-size: 75%;
+    }
+
+    input,
+    button {
+        height: 15px;
+    }
+
+    #box,
+    #addItemBtn {
+        font-size: 60%;
+    }
+
+    .new-item {
+        width: 80%;
+        font-size: 80%;
+    }
+
+    .remove-btn {
+        font-size: 75%;
+    }
+
+    .select-time-box {
+        width: 55px;
+        height: 15px;
     }
 }
