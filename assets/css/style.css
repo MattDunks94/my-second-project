@@ -203,7 +203,7 @@ button {
 
     body {
         background-size: cover;
-        background-image: url(images/music-background-rotated.webp);
+        background-image: url(../images/music-background-rotated.webp);
         background-size: 100%;
     }
 
@@ -259,12 +259,6 @@ button {
         margin-top: 450px;
         width: 90%;
         height: 200px;
-    }
-
-    body {
-        background-size: cover;
-        background-image: url(/assets/images/music-background-rotated.webp);
-        background-size: 100%;
     }
 
     ol {
@@ -358,7 +352,6 @@ button {
 
     body {
         background-size: cover;
-        background-image: url(/assets/images/music-background-rotated.webp);
         background-size: 65vh;
     }
 
@@ -420,7 +413,6 @@ button {
 
     body {
         background-size: 70vh;
-        background-image: url(/assets/images/music-background-rotated.webp);
         padding-right: 20px;
     }
 
