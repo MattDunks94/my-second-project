@@ -7,7 +7,6 @@ The app is a fully responsive site that allows users to add, edit times and remo
 
 ## Features
 
-
 ### Adding Activities:
 <ul>
   <li>The Day Planner has an add activity feature. This is where the user can type in a daily activity into the input type and either click on the 'Add Activity' button or press the 'Enter' key.</li>
@@ -31,5 +30,14 @@ Added activity with time and remove features:
 Remove feature hover effect:
 
 <img src= "/assets/images/readme-images/red-x.png">
+
+## Existing Features:
+
+### The Welcome Area:
+<ul>
+  <li>This section welcomes the user to the application and explains it's purpose.</li>
+  <li>It also contains the 'Start Planning!' button which leads to the 'day planner' area.</li>
+</ul>
+
 
 
