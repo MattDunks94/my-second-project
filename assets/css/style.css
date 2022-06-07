@@ -125,9 +125,9 @@ button {
 
 /* Media Queries */
 
-/* Screen size 912px wide. */
+/* Screen size 1024px wide */
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1024px) {
 
     p {
         font-size: 150%;
@@ -138,9 +138,67 @@ button {
     }
 
     .start-area {
-        margin-top: 550px;
+        margin-top: 180px;
         width: 90%;
         height: 200px;
+    }
+
+    body {
+        background-size: 100%;
+    }
+
+    ol {
+        font-size: 120%;
+    }
+
+    #listContainer {
+        width: 80vw;
+    }
+
+    input,
+    button {
+        width: 50%;
+        height: 30px;
+    }
+
+    #box,
+    #addItemBtn {
+        font-size: 110%;
+    }
+
+    button {
+        margin-bottom: 5px;
+    }
+
+    .list-area {
+        width: 100%;
+    }
+
+    .new-item {
+        width: 70%;
+        font-size: 160%;
+        padding: 10px;
+    }
+
+    .remove-btn {
+        width: 30px;
+        margin-left: 10px;
+        font-size: 80%;
+    }
+
+    .select-time-box {
+        width: 80px;
+        height: 40px;
+        font-size: 70%;
+    }
+}
+
+/* Screen size 912px wide. */
+
+@media screen and (max-width: 912px) {
+
+    .start-area {
+        margin-top: 550px;
     }
 
     body {
@@ -168,23 +226,13 @@ button {
         font-size: 130%;
     }
 
-    button {
-        margin-bottom: 5px;
-    }
-
-    .list-area {
-        width: 100%;
-    }
-
     .new-item {
         width: 80%;
         font-size: 180%;
-        padding: 10px;
     }
 
     .remove-btn {
         width: 20px;
-        margin-left: 10px;
         font-size: 100%;
     }
 
@@ -243,7 +291,15 @@ button {
 
 /* Screen size 540px wide. */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
 
     .start-area {
         margin-top: 240px;
@@ -255,16 +311,17 @@ button {
 
     input,
     button {
-        height: 30px;
+        height: 25px;
+        width: 60%;
     }
 
     #box,
     #addItemBtn {
-        font-size: 100%;
+        font-size: 80%;
     }
 
     .new-item {
-        font-size: 150%;
+        font-size: 120%;
     }
 
     .remove-btn {
@@ -272,8 +329,8 @@ button {
     }
 
     .select-time-box {
-        width: 80px;
-        font-size: 80%;
+        width: 65px;
+        font-size: 75%;
     }
 }
 
@@ -305,10 +362,6 @@ button {
         background-size: 65vh;
     }
 
-    ol {
-        font-size: 90%;
-    }
-
     #listContainer {
         width: 90vw;
     }
@@ -327,7 +380,6 @@ button {
 
     .new-item {
         width: 90%;
-        font-size: 120%;
     }
 
     .remove-btn {
@@ -404,7 +456,7 @@ button {
     }
 
     .select-time-box {
-        width: 60px;
+        width: 65px;
         height: 20px;
         font-size: 90%;
     }
