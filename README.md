@@ -22,11 +22,14 @@ The app is a fully responsive site that allows users to add, edit times and remo
 
 ### Removing Activities:
 <ul>
-  <li>The remove activity feature is self explanatory. The user can remove activities by clicking on the 'X', which is located beside the activity entered. This element also has a hover effect. When hovering over the 'X' it turns red. This indicates to the user that it does something important.(see image below for the remove activity and set start time features)</li>
+  <li>The remove activity feature is self explanatory. The user can remove activities by clicking on the 'X', which is located beside the activity entered. This element also has a hover effect. When hovering over the 'X' it turns red. This indicates to the user that it does something important.(see image below for the add, remove activity and set start time features)</li>
 </ul>
+
+Added activity with time and remove features:
 
 <img src= "/assets/images/readme-images/added-activity.png">
 Remove feature hover effect:
+
 <img src= "/assets/images/readme-images/red-x.png">
 
 
