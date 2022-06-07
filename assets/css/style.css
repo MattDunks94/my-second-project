@@ -207,9 +207,9 @@ button {
     }
 }
 
-/* Screen size 1024px wide */
+/* Screen size 1100px wide */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
 
     body {
         background-size: 110%;
@@ -218,6 +218,50 @@ button {
     p {
         font-size: 150%;
     }
+
+
+    .welcome {
+        width: 85%;
+        margin-left: 70px;
+    }
+
+    .start-area {
+        margin-top: 200px;
+    }
+
+    ol {
+        font-size: 100%;
+    }
+
+    input,
+    button {
+        height: 25px;
+    }
+
+    #box,
+    #addItemBtn {
+        font-size: 100%;
+    }
+
+    .new-item {
+        width: 60%;
+        font-size: 150%;
+    }
+
+    .remove-btn {
+        font-size: 70%;
+    }
+
+    .select-time-box {
+        width: 80px;
+        height: 30px;
+        font-size: 80%;
+    }
+}
+
+/* Screen size 1024px wide */
+
+@media screen and (max-width: 1024px) {
 
     .welcome {
         width: 95%;
@@ -247,10 +291,6 @@ button {
 
     .new-item {
         font-size: 140%;
-    }
-
-    .remove-btn {
-        font-size: 70%;
     }
 
     .select-time-box {
