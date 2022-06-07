@@ -1,7 +1,7 @@
 # Day Planner
 
 Day Planner is an application that demonstrates basic use of Javascript. The app is targeted for people who like to plan and organise their day ahead.
-The app is a fully responsive site that allows users to add, edit times and remove activites/events from their day planner.
+The app is a fully responsive site on most devices and allows users to add, edit times and remove activites/events from their day planner.
 
 <img src="/assets/images/readme-images/responsive-design.png">
 
@@ -36,8 +36,10 @@ Remove feature hover effect:
 ### The Welcome Area:
 <ul>
   <li>This section welcomes the user to the application and explains it's purpose.</li>
-  <li>It also contains the 'Start Planning!' button which leads to the 'day planner' area.</li>
+  <li>It also contains the 'Start Planning!' button which leads to the 'day planner' area. This button has a hover effect. When hovering over the text, it changes color from white to blue.(as seen in image below)</li>
 </ul>
+
+<img src= "/assets/images/readme-images/welcome-area.png">
 
 
 
