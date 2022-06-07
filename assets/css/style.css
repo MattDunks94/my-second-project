@@ -203,7 +203,7 @@ button {
 
     body {
         background-size: cover;
-        background-image: url(/assets/images/music-background-rotated.webp);
+        background-image: url(../images/music-background-rotated.webp);
         background-size: 100%;
     }
 
