@@ -2,7 +2,7 @@
 
 body {
     font-family: kanit, sans-serif;
-    background-image: url(images/music-background.webp);
+    background-image: url(../images/music-background.webp);
     background-repeat: repeat;
     background-size: 110%;
 }
