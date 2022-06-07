@@ -36,6 +36,7 @@ Remove feature hover effect:
 ### The Welcome Area:
 <ul>
   <li>This section welcomes the user to the application and explains it's purpose.</li>
+  <li>It includes the title of the application 'Day Planner' alongside a logo icon, and a small paragraph welcoming the user.</li>
   <li>It also contains the 'Start Planning!' button which leads to the 'day planner' area. This button has a hover effect. When hovering over the text, it changes color from white to darkturqoise (as seen in image below).</li>
 </ul>
 
@@ -43,11 +44,11 @@ Remove feature hover effect:
 
 ### The Day Planner Area:
 <ul>
-  <li>This area is where the user creates their list of activities, using the features provided.</li>
+  <li>This area is where the user creates their list of activities, using the features provided (input type, buttons).</li>
   <li>This section also includes a step-by-step guide (located at top of page), for the user, on how to use the application.</li>
 </ul>
 
-<img src= "/assets/images/readme-images/">
+<img src= "/assets/images/readme-images/day-planner-area.png">
 
 
 
