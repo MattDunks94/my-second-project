@@ -78,10 +78,25 @@ Remove feature hover effect:
   <li>Javascript
     <ul>
       <li>No errors were found when passing through the official <a href="https://jshint.com/">Jshint Validator</a>.
-        <img src="">
+        <img src="/assets/images/readme-images/jshint-validator.png">
       </li>
     </ul>
   </li>
+  <li>Lighthouse Performance Report
+    <ul>
+      <img src="/assets/images/readme-images/lighthouse-report.png">
+    </ul>
+  </li>
+</ul>
+
+### Browser Testing:
+<ul>
+  <li>Tested on the following browsers and no bugs or errors occured.</li>
+  <ul>
+    <li>Google Chrome</li>
+    <li>Firefox</li>
+    <li>Safari</li>
+  </ul>
 </ul>
 
 
