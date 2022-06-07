@@ -50,5 +50,17 @@ Remove feature hover effect:
 
 <img src= "/assets/images/readme-images/day-planner-area.png">
 
+### Other Features:
+
+### Site Icon:
+<ul>
+  <li>A site icon is added to the page tab. This makes it easier for the user to see what tab the 'Day Planner' is on.</li>
+</ul>
+
+<img src= "/assets/images/readme-images/site-icon.png">
+
+## Testing:
+
+
 
 
