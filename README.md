@@ -26,6 +26,7 @@ The app is a fully responsive site that allows users to add, edit times and remo
 </ul>
 
 <img src= "/assets/images/readme-images/added-activity.png">
+Remove feature hover effect:
 <img src= "/assets/images/readme-images/red-x.png">
 
 
