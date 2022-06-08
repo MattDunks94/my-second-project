@@ -1,6 +1,6 @@
 # Day Planner
 
-Day Planner is an application that demonstrates basic use of Javascript. The app is targeted for people who like to plan and organise their day ahead.
+<a href="https://mattdunks94.github.io/my-second-project/">Day Planner</a> is an application that demonstrates basic use of Javascript. The app is targeted for people who like to plan and organise their day ahead.
 The app is a fully responsive site on most devices and allows users to add, edit times and remove activites/events from their day planner.
 
 <img src="/assets/images/readme-images/responsive-design.png">
@@ -59,7 +59,17 @@ Remove feature hover effect:
 
 <img src= "/assets/images/readme-images/site-icon.png">
 
-### Features to be added
+### Features to add:
+<ul>
+  <li>Notes:</li>
+  <ul>
+      <li>Would've liked to have added a note feature, where the user can add notes to each activity.</li>
+  </ul>
+  <li>Checkbox:</li>
+  <ul>
+      <li>A checkbox feature would allow the user to tick off an activity that they've already carried out.</li>
+  </ul>
+</ul>
 
 ## Testing:
 
@@ -100,3 +110,11 @@ Remove feature hover effect:
     <li>Safari</li>
   </ul>
 </ul>
+
+### Device Testing:
+<ul>
+  <li>Tested the application on several different devices, such as iPhone (7, 10, SE), iPad air and Google nest hub (2nd gen).</li>
+  <li>No bugs or errors returned when testing on these devices.</li>
+</ul>
+
+## User Experience (UX):
