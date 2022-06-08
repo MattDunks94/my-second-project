@@ -71,7 +71,7 @@ Remove feature hover effect:
   </ul>
   <li>Disable Add Button:</li>
   <ul>
-    <li>When the text bar is empty the 'Add Activity' button is active and can add an empty item (as seen below). To fix this I would disable the 'Add Activity' button when the text bar is empty and make it active again when the user types in an activity.</li>
+    <li>When the text bar is empty the 'Add Activity' button is active and can add an empty item (as seen below), makes the site look very untidy. To fix this I would disable the 'Add Activity' button when the text bar is empty and make it active again when the user types in an activity.</li>
     <img src="/assets/images/readme-images/empty-div.png">
   </ul>
 </ul>
@@ -186,7 +186,8 @@ Remove feature hover effect:
 
 ### Media:
 <ul>
-  <li>The shortcut icon I found was from <a href="https://www.flaticon.com/">Flaticon</a>.</li><img src="/assets/images/calendar.png">
+  <li>The shortcut icon I found was from <a href="https://www.flaticon.com/">Flaticon</a>.</li>
+  <img src="/assets/images/calendar.png">
   <li>The background image I found was from <a href="https://pixabay.com/">Pixabay</a>.</li>
-  <img src="/assets/images/music-background.png">
+  <img src="/assets/images/music-background.webp">
 </ul>
