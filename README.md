@@ -138,6 +138,10 @@ Remove feature hover effect:
   <ul>
     <li>Only the one image was used for the application. This was the background-image. Being the only image on the site it had to be effective, appealing and relevant. It consists of objects that are considered as day-to-day hobbies, which is relevant to the application.</li>
   </ul>
+  <li>Navigation:</li>
+  <ul>
+    <li>Apart from the welcome page 'Start Planning!' button which takes the user to the 'Day Planner' area when executed, theres very little navigation for this application. This makes it very easy for the user to use the site and to get straight to the sites general purpose.</li>
+  </ul>
 </ul>
 
 ## Technologies Used:
@@ -182,6 +186,7 @@ Remove feature hover effect:
 
 ### Media:
 <ul>
-  <li>The shortcut icon I found was from <a href="https://www.flaticon.com/">Flaticon</a>.</li>
+  <li>The shortcut icon I found was from <a href="https://www.flaticon.com/">Flaticon</a>.</li><img src="/assets/images/calendar.png">
   <li>The background image I found was from <a href="https://pixabay.com/">Pixabay</a>.</li>
+  <img src="/assets/images/music-background.png">
 </ul>
