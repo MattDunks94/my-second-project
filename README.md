@@ -72,7 +72,7 @@ Remove feature hover effect:
   <li>Disable Add Button:</li>
   <ul>
     <li>When the text bar is empty the 'Add Activity' button is active and can add an empty item (as seen below). To fix this I would disable the 'Add Activity' button when the text bar is empty and make it active again when the user types in an activity.</li>
-    <img src="">
+    <img src="/assets/images/readme-images/empty-div.png">
   </ul>
 </ul>
 
