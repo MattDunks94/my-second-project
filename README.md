@@ -69,6 +69,11 @@ Remove feature hover effect:
   <ul>
       <li>A checkbox feature would allow the user to tick off an activity that they've already carried out.</li>
   </ul>
+  <li>Disable Add Button:</li>
+  <ul>
+    <li>When the text bar is empty the 'Add Activity' button is active and can add an empty item (as seen below). To fix this I would disable the 'Add Activity' button when the text bar is empty and make it active again when the user types in an activity.</li>
+    <img src="">
+  </ul>
 </ul>
 
 ## Testing:
