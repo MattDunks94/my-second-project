@@ -59,6 +59,8 @@ Remove feature hover effect:
 
 <img src= "/assets/images/readme-images/site-icon.png">
 
+### Features to be added
+
 ## Testing:
 
 ### Validator Testing:
@@ -91,14 +93,10 @@ Remove feature hover effect:
 
 ### Browser Testing:
 <ul>
-  <li>Tested on the following browsers and no bugs or errors occured.</li>
+  <li>No bugs or errors occurred when testing on the following browsers:</li>
   <ul>
     <li>Google Chrome</li>
     <li>Firefox</li>
     <li>Safari</li>
   </ul>
 </ul>
-
-
-
-
