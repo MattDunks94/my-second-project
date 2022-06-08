@@ -59,7 +59,7 @@ Remove feature hover effect:
 
 <img src= "/assets/images/readme-images/site-icon.png">
 
-### Features to add:
+### Features For The Future:
 <ul>
   <li>Notes:</li>
   <ul>
@@ -118,3 +118,65 @@ Remove feature hover effect:
 </ul>
 
 ## User Experience (UX):
+
+### Design:
+<ul>
+  <li>Colour Scheme:</li>
+  <ul>
+    <li>The colour scheme consists of mainly darkturqoise, transparent black and white. Text is white with transparent black backgrounds. The transparent backgrounds enables the user to see the text more clearly. Without the black backgrounds the text would've gotten lost in the background image. Occasionally the text is in darkturqoise. This occurs during a hover effect over the 'Start Planning!' button, This indicates to the user that it is a link/button. And also within the application instructions the text is in darkturqoise indicating the essential steps on how to operate the site.</li>
+  </ul>
+  <li>Typography:</li>
+  <ul>
+    <li>The font used is Kanit, imported from Google fonts. Sans serif is set as the fallback font in case of any issues with loading the Kanit font. Kanit font is a modern looking font and easy for the user to read.</li>
+  </ul>
+  <li>Imagery:</li>
+  <ul>
+    <li>Only the one image was used for the application. This was the background-image. Being the only image on the site it had to be effective, appealing and relevant. It consists of objects that are considered as day-to-day hobbies, which is relevant to the application.</li>
+  </ul>
+</ul>
+
+## Technologies Used:
+
+### Languages Used:
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/CSS">CSS3</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+</ul>
+
+### Frameworks, Libraries and Programs Used:
+<ul>
+  <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+  <ul>
+    <li>Google fonts was used to import the 'Kandit' font into the style.css file.</li>
+  </ul>
+    <li><a href="https://fontawesome.com/">FontAwesome</a></li>
+  <ul>
+    <li>Fontawesome was used to add an icon to the main heading.</li>
+  </ul>
+    <li><a href="https://git-scm.com/">Git</a></li>
+  <ul>
+    <li>Git was used for version control and using the Gitpod terminal to commit and push to GitHub.</li>
+  </ul>
+  <li><a href="https://github.com/">GitHub</a></li>
+    <ul>
+    <li>GitHub is used to store the projects code after being pushed from Git.</li>
+  </ul>
+  <li><a href="https://www.pixelmator.com/pro/">Pixelmator</a></li>
+  <ul>
+    <li>I used Pixelmator to edit the background image. Adjusted contrast, brightness and aslo rotated image for responsive design.</li>
+  </ul>
+</ul>
+
+## Credits:
+
+### Content:
+<ul>
+  <li>All content was written by the developer (Matt Dunkerton).</li>
+</ul>
+
+### Media:
+<ul>
+  <li>The shortcut icon I found was from <a href="https://www.flaticon.com/">Flaticon</a>.</li>
+  <li>The background image I found was from <a href="https://pixabay.com/">Pixabay</a>.</li>
+</ul>
